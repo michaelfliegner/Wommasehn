@@ -1,0 +1,960 @@
+┌ Info: 2022-10-22 08:49:42 Watching ["/home/mf/.julia/geniebuilder/apps/Wommasehn"]
+└ @ GenieAutoReload /home/mf/.julia/packages/GenieAutoReload/3nZPA/src/GenieAutoReload.jl:18
+┌ Info: 2022-10-22 08:50:27 
+│ Web Server starting at http://0.0.0.0:51329 - press Ctrl/Cmd+C to stop the server. 
+└ @ Genie.Server /home/mf/.julia/packages/Genie/AjwV9/src/Server.jl:158
+┌ Info: 2022-10-22 08:50:38 GET /_devtools_/id 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 08:51:10 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 08:51:13 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 08:51:13 GET /SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 08:51:13 GET /genie.jl/master/assets/js/channels.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 08:51:13 GET /stipple.jl/master/assets/js/underscore-min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 08:51:13 GET /stipple.jl/master/assets/js/vue.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 08:51:13 GET /stipple.jl/master/assets/js/vue_filters.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 08:51:13 GET /stipple.jl/master/assets/js/stipplecore.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 08:51:13 GET /_devtools_/edit?path=views/hello.jl.html 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 08:51:13 GET /stipple.jl/master/assets/js/watchers.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 08:51:13 GET /stipple.jl/master/assets/js/keepalive.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 08:51:13 GET /js/plugins/autoreload.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 08:51:16 GET /stipple.jl/master/assets/js/wommasehnappmodelsappmodel.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 08:51:19 GET /_devtools_/edit?path=public/css/grapes.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 08:51:19 GET /stipple.jl/master/assets/css/stipplecore.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 08:51:19 GET /stippleui.jl/master/assets/css/quasar.min.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Error: 2022-10-22 08:51:50 Failed to revise /home/mf/.julia/geniebuilder/apps/Wommasehn/models/AppModels.jl
+│   exception = Revise.ReviseEvalException("/home/mf/.julia/packages/Parameters/MK0O4/src/Parameters.jl:611", ErrorException("invalid redefinition of constant AppModel"), Any[(top-level scope at Parameters.jl:611, 1)])
+└ @ Revise /home/mf/.julia/packages/Revise/do2nH/src/packagedef.jl:715
+┌ Warning: 2022-10-22 08:51:52 The running code does not match the saved version for the following files:
+│ 
+│   /home/mf/.julia/geniebuilder/apps/Wommasehn/models/AppModels.jl
+│ 
+│ If the error was due to evaluation order, it can sometimes be resolved by calling `Revise.retry()`.
+│ Use Revise.errors() to report errors again. Only the first error in each file is shown.
+│ Your prompt color may be yellow until the errors are resolved.
+└ @ Revise /home/mf/.julia/packages/Revise/do2nH/src/packagedef.jl:825
+┌ Error: 2022-10-22 08:51:54 MethodError: no method matching Wommasehn.AppModels.AppModel()
+│ Stacktrace:
+│   [1] #invokelatest#2
+│     @ ./essentials.jl:729 [inlined]
+│   [2] invokelatest
+│     @ ./essentials.jl:726 [inlined]
+│   [3] |>
+│     @ ./operators.jl:911 [inlined]
+│   [4] (::GenieDevTools.RouteHelpers.var"#24#26")(p::Stipple.Pages.Page)
+│     @ GenieDevTools.RouteHelpers ./none:0
+│   [5] iterate
+│     @ ./generator.jl:47 [inlined]
+│   [6] collect(itr::Base.Generator{Vector{Stipple.Pages.Page}, GenieDevTools.RouteHelpers.var"#24#26"})
+│     @ Base ./array.jl:787
+│   [7] (::GenieDevTools.RouteHelpers.var"#23#25")()
+│     @ GenieDevTools.RouteHelpers ~/.julia/packages/GenieDevTools/D2n4E/src/route_helpers.jl:139
+│   [8] run_route(r::Genie.Router.Route)
+│     @ Genie.Router ~/.julia/packages/Genie/AjwV9/src/Router.jl:535
+│   [9] route_request(req::HTTP.Messages.Request, res::HTTP.Messages.Response)
+│     @ Genie.Router ~/.julia/packages/Genie/AjwV9/src/Router.jl:173
+│  [10] handle_request(req::HTTP.Messages.Request, res::HTTP.Messages.Response)
+│     @ Genie.Server ~/.julia/packages/Genie/AjwV9/src/Server.jl:270
+│  [11] (::Genie.Server.var"#27#28"{HTTP.Messages.Request, HTTP.Messages.Response})()
+│     @ Genie.Server ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/macros.jl:123
+│  [12] #invokelatest#2
+│     @ ./essentials.jl:729 [inlined]
+│  [13] invokelatest
+│     @ ./essentials.jl:726 [inlined]
+│  [14] #153
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:425 [inlined]
+│  [15] run_work_thunk(thunk::Distributed.var"#153#154"{Genie.Server.var"#27#28"{HTTP.Messages.Request, HTTP.Messages.Response}, Tuple{}, Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}}}, print_error::Bool)
+│     @ Distributed ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/process_messages.jl:70
+│  [16] #remotecall_fetch#158
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:450 [inlined]
+│  [17] remotecall_fetch
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:449 [inlined]
+│  [18] #remotecall_fetch#162
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:492 [inlined]
+│  [19] remotecall_fetch
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:492 [inlined]
+│  [20] setup_http_listener(req::HTTP.Messages.Request, res::HTTP.Messages.Response)
+│     @ Genie.Server ~/.julia/packages/Genie/AjwV9/src/Server.jl:297
+│  [21] setup_http_listener
+│     @ ~/.julia/packages/Genie/AjwV9/src/Server.jl:296 [inlined]
+│  [22] (::HTTP.Handlers.var"#1#2"{typeof(Genie.Server.setup_http_listener)})(stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.ConnectionPool.Connection})
+│     @ HTTP.Handlers ~/.julia/packages/HTTP/a7H3J/src/Handlers.jl:58
+│  [23] setup_http_streamer(http::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.ConnectionPool.Connection})
+│     @ Genie.Server ~/.julia/packages/Genie/AjwV9/src/Server.jl:286
+│  [24] (::Genie.Server.var"#6#12"{Int64})(http::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.ConnectionPool.Connection})
+│     @ Genie.Server ~/.julia/packages/Genie/AjwV9/src/Server.jl:118
+│  [25] #invokelatest#2
+│     @ ./essentials.jl:729 [inlined]
+│  [26] invokelatest
+│     @ ./essentials.jl:726 [inlined]
+│  [27] handle_connection(f::Function, c::HTTP.ConnectionPool.Connection, listener::HTTP.Servers.Listener{Nothing, Sockets.TCPServer}, readtimeout::Int64, access_log::Nothing)
+│     @ HTTP.Servers ~/.julia/packages/HTTP/a7H3J/src/Servers.jl:442
+│  [28] (::HTTP.Servers.var"#16#17"{Genie.Server.var"#6#12"{Int64}, HTTP.Servers.Listener{Nothing, Sockets.TCPServer}, Set{HTTP.ConnectionPool.Connection}, Int64, Nothing, Base.Semaphore, HTTP.ConnectionPool.Connection})()
+│     @ HTTP.Servers ./task.jl:484
+│ 
+└ @ Genie.Server /home/mf/.julia/packages/Genie/AjwV9/src/Server.jl:309
+┌ Error: 2022-10-22 08:51:54 MethodError: no method matching Wommasehn.AppModels.AppModel()
+│ Stacktrace:
+│   [1] #invokelatest#2
+│     @ ./essentials.jl:729 [inlined]
+│   [2] invokelatest
+│     @ ./essentials.jl:726 [inlined]
+│   [3] |>
+│     @ ./operators.jl:911 [inlined]
+│   [4] (::GenieDevTools.RouteHelpers.var"#24#26")(p::Stipple.Pages.Page)
+│     @ GenieDevTools.RouteHelpers ./none:0
+│   [5] iterate
+│     @ ./generator.jl:47 [inlined]
+│   [6] collect(itr::Base.Generator{Vector{Stipple.Pages.Page}, GenieDevTools.RouteHelpers.var"#24#26"})
+│     @ Base ./array.jl:787
+│   [7] (::GenieDevTools.RouteHelpers.var"#23#25")()
+│     @ GenieDevTools.RouteHelpers ~/.julia/packages/GenieDevTools/D2n4E/src/route_helpers.jl:139
+│   [8] run_route(r::Genie.Router.Route)
+│     @ Genie.Router ~/.julia/packages/Genie/AjwV9/src/Router.jl:535
+│   [9] route_request(req::HTTP.Messages.Request, res::HTTP.Messages.Response)
+│     @ Genie.Router ~/.julia/packages/Genie/AjwV9/src/Router.jl:173
+│  [10] handle_request(req::HTTP.Messages.Request, res::HTTP.Messages.Response)
+│     @ Genie.Server ~/.julia/packages/Genie/AjwV9/src/Server.jl:270
+│  [11] (::Genie.Server.var"#27#28"{HTTP.Messages.Request, HTTP.Messages.Response})()
+│     @ Genie.Server ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/macros.jl:123
+│  [12] #invokelatest#2
+│     @ ./essentials.jl:729 [inlined]
+│  [13] invokelatest
+│     @ ./essentials.jl:726 [inlined]
+│  [14] #153
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:425 [inlined]
+│  [15] run_work_thunk(thunk::Distributed.var"#153#154"{Genie.Server.var"#27#28"{HTTP.Messages.Request, HTTP.Messages.Response}, Tuple{}, Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}}}, print_error::Bool)
+│     @ Distributed ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/process_messages.jl:70
+│  [16] #remotecall_fetch#158
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:450 [inlined]
+│  [17] remotecall_fetch
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:449 [inlined]
+│  [18] #remotecall_fetch#162
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:492 [inlined]
+│  [19] remotecall_fetch
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:492 [inlined]
+│  [20] setup_http_listener(req::HTTP.Messages.Request, res::HTTP.Messages.Response)
+│     @ Genie.Server ~/.julia/packages/Genie/AjwV9/src/Server.jl:297
+│  [21] setup_http_listener
+│     @ ~/.julia/packages/Genie/AjwV9/src/Server.jl:296 [inlined]
+│  [22] (::HTTP.Handlers.var"#1#2"{typeof(Genie.Server.setup_http_listener)})(stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.ConnectionPool.Connection})
+│     @ HTTP.Handlers ~/.julia/packages/HTTP/a7H3J/src/Handlers.jl:58
+│  [23] setup_http_streamer(http::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.ConnectionPool.Connection})
+│     @ Genie.Server ~/.julia/packages/Genie/AjwV9/src/Server.jl:286
+│  [24] (::Genie.Server.var"#6#12"{Int64})(http::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.ConnectionPool.Connection})
+│     @ Genie.Server ~/.julia/packages/Genie/AjwV9/src/Server.jl:118
+│  [25] #invokelatest#2
+│     @ ./essentials.jl:729 [inlined]
+│  [26] invokelatest
+│     @ ./essentials.jl:726 [inlined]
+│  [27] handle_connection(f::Function, c::HTTP.ConnectionPool.Connection, listener::HTTP.Servers.Listener{Nothing, Sockets.TCPServer}, readtimeout::Int64, access_log::Nothing)
+│     @ HTTP.Servers ~/.julia/packages/HTTP/a7H3J/src/Servers.jl:442
+│  [28] (::HTTP.Servers.var"#16#17"{Genie.Server.var"#6#12"{Int64}, HTTP.Servers.Listener{Nothing, Sockets.TCPServer}, Set{HTTP.ConnectionPool.Connection}, Int64, Nothing, Base.Semaphore, HTTP.ConnectionPool.Connection})()
+│     @ HTTP.Servers ./task.jl:484
+│ 
+└ @ Genie.Server /home/mf/.julia/packages/Genie/AjwV9/src/Server.jl:309
+┌ Error: 2022-10-22 08:51:54 MethodError: no method matching Wommasehn.AppModels.AppModel()
+│ Stacktrace:
+│   [1] #invokelatest#2
+│     @ ./essentials.jl:729 [inlined]
+│   [2] invokelatest
+│     @ ./essentials.jl:726 [inlined]
+│   [3] |>
+│     @ ./operators.jl:911 [inlined]
+│   [4] (::GenieDevTools.RouteHelpers.var"#24#26")(p::Stipple.Pages.Page)
+│     @ GenieDevTools.RouteHelpers ./none:0
+│   [5] iterate
+│     @ ./generator.jl:47 [inlined]
+│   [6] collect(itr::Base.Generator{Vector{Stipple.Pages.Page}, GenieDevTools.RouteHelpers.var"#24#26"})
+│     @ Base ./array.jl:787
+│   [7] (::GenieDevTools.RouteHelpers.var"#23#25")()
+│     @ GenieDevTools.RouteHelpers ~/.julia/packages/GenieDevTools/D2n4E/src/route_helpers.jl:139
+│   [8] run_route(r::Genie.Router.Route)
+│     @ Genie.Router ~/.julia/packages/Genie/AjwV9/src/Router.jl:535
+│   [9] route_request(req::HTTP.Messages.Request, res::HTTP.Messages.Response)
+│     @ Genie.Router ~/.julia/packages/Genie/AjwV9/src/Router.jl:173
+│  [10] handle_request(req::HTTP.Messages.Request, res::HTTP.Messages.Response)
+│     @ Genie.Server ~/.julia/packages/Genie/AjwV9/src/Server.jl:270
+│  [11] (::Genie.Server.var"#27#28"{HTTP.Messages.Request, HTTP.Messages.Response})()
+│     @ Genie.Server ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/macros.jl:123
+│  [12] #invokelatest#2
+│     @ ./essentials.jl:729 [inlined]
+│  [13] invokelatest
+│     @ ./essentials.jl:726 [inlined]
+│  [14] #153
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:425 [inlined]
+│  [15] run_work_thunk(thunk::Distributed.var"#153#154"{Genie.Server.var"#27#28"{HTTP.Messages.Request, HTTP.Messages.Response}, Tuple{}, Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}}}, print_error::Bool)
+│     @ Distributed ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/process_messages.jl:70
+│  [16] #remotecall_fetch#158
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:450 [inlined]
+│  [17] remotecall_fetch
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:449 [inlined]
+│  [18] #remotecall_fetch#162
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:492 [inlined]
+│  [19] remotecall_fetch
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:492 [inlined]
+│  [20] setup_http_listener(req::HTTP.Messages.Request, res::HTTP.Messages.Response)
+│     @ Genie.Server ~/.julia/packages/Genie/AjwV9/src/Server.jl:297
+│  [21] setup_http_listener
+│     @ ~/.julia/packages/Genie/AjwV9/src/Server.jl:296 [inlined]
+│  [22] (::HTTP.Handlers.var"#1#2"{typeof(Genie.Server.setup_http_listener)})(stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.ConnectionPool.Connection})
+│     @ HTTP.Handlers ~/.julia/packages/HTTP/a7H3J/src/Handlers.jl:58
+│  [23] setup_http_streamer(http::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.ConnectionPool.Connection})
+│     @ Genie.Server ~/.julia/packages/Genie/AjwV9/src/Server.jl:286
+│  [24] (::Genie.Server.var"#6#12"{Int64})(http::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.ConnectionPool.Connection})
+│     @ Genie.Server ~/.julia/packages/Genie/AjwV9/src/Server.jl:118
+│  [25] #invokelatest#2
+│     @ ./essentials.jl:729 [inlined]
+│  [26] invokelatest
+│     @ ./essentials.jl:726 [inlined]
+│  [27] handle_connection(f::Function, c::HTTP.ConnectionPool.Connection, listener::HTTP.Servers.Listener{Nothing, Sockets.TCPServer}, readtimeout::Int64, access_log::Nothing)
+│     @ HTTP.Servers ~/.julia/packages/HTTP/a7H3J/src/Servers.jl:442
+│  [28] (::HTTP.Servers.var"#16#17"{Genie.Server.var"#6#12"{Int64}, HTTP.Servers.Listener{Nothing, Sockets.TCPServer}, Set{HTTP.ConnectionPool.Connection}, Int64, Nothing, Base.Semaphore, HTTP.ConnectionPool.Connection})()
+│     @ HTTP.Servers ./task.jl:484
+│ 
+└ @ Genie.Server /home/mf/.julia/packages/Genie/AjwV9/src/Server.jl:309
+┌ Error: 2022-10-22 08:51:55 MethodError: no method matching Wommasehn.AppModels.AppModel()
+│ Stacktrace:
+│   [1] #invokelatest#2
+│     @ ./essentials.jl:729 [inlined]
+│   [2] invokelatest
+│     @ ./essentials.jl:726 [inlined]
+│   [3] |>
+│     @ ./operators.jl:911 [inlined]
+│   [4] (::GenieDevTools.RouteHelpers.var"#24#26")(p::Stipple.Pages.Page)
+│     @ GenieDevTools.RouteHelpers ./none:0
+│   [5] iterate
+│     @ ./generator.jl:47 [inlined]
+│   [6] collect(itr::Base.Generator{Vector{Stipple.Pages.Page}, GenieDevTools.RouteHelpers.var"#24#26"})
+│     @ Base ./array.jl:787
+│   [7] (::GenieDevTools.RouteHelpers.var"#23#25")()
+│     @ GenieDevTools.RouteHelpers ~/.julia/packages/GenieDevTools/D2n4E/src/route_helpers.jl:139
+│   [8] run_route(r::Genie.Router.Route)
+│     @ Genie.Router ~/.julia/packages/Genie/AjwV9/src/Router.jl:535
+│   [9] route_request(req::HTTP.Messages.Request, res::HTTP.Messages.Response)
+│     @ Genie.Router ~/.julia/packages/Genie/AjwV9/src/Router.jl:173
+│  [10] handle_request(req::HTTP.Messages.Request, res::HTTP.Messages.Response)
+│     @ Genie.Server ~/.julia/packages/Genie/AjwV9/src/Server.jl:270
+│  [11] (::Genie.Server.var"#27#28"{HTTP.Messages.Request, HTTP.Messages.Response})()
+│     @ Genie.Server ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/macros.jl:123
+│  [12] #invokelatest#2
+│     @ ./essentials.jl:729 [inlined]
+│  [13] invokelatest
+│     @ ./essentials.jl:726 [inlined]
+│  [14] #153
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:425 [inlined]
+│  [15] run_work_thunk(thunk::Distributed.var"#153#154"{Genie.Server.var"#27#28"{HTTP.Messages.Request, HTTP.Messages.Response}, Tuple{}, Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}}}, print_error::Bool)
+│     @ Distributed ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/process_messages.jl:70
+│  [16] #remotecall_fetch#158
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:450 [inlined]
+│  [17] remotecall_fetch
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:449 [inlined]
+│  [18] #remotecall_fetch#162
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:492 [inlined]
+│  [19] remotecall_fetch
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:492 [inlined]
+│  [20] setup_http_listener(req::HTTP.Messages.Request, res::HTTP.Messages.Response)
+│     @ Genie.Server ~/.julia/packages/Genie/AjwV9/src/Server.jl:297
+│  [21] setup_http_listener
+│     @ ~/.julia/packages/Genie/AjwV9/src/Server.jl:296 [inlined]
+│  [22] (::HTTP.Handlers.var"#1#2"{typeof(Genie.Server.setup_http_listener)})(stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.ConnectionPool.Connection})
+│     @ HTTP.Handlers ~/.julia/packages/HTTP/a7H3J/src/Handlers.jl:58
+│  [23] setup_http_streamer(http::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.ConnectionPool.Connection})
+│     @ Genie.Server ~/.julia/packages/Genie/AjwV9/src/Server.jl:286
+│  [24] (::Genie.Server.var"#6#12"{Int64})(http::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.ConnectionPool.Connection})
+│     @ Genie.Server ~/.julia/packages/Genie/AjwV9/src/Server.jl:118
+│  [25] #invokelatest#2
+│     @ ./essentials.jl:729 [inlined]
+│  [26] invokelatest
+│     @ ./essentials.jl:726 [inlined]
+│  [27] handle_connection(f::Function, c::HTTP.ConnectionPool.Connection, listener::HTTP.Servers.Listener{Nothing, Sockets.TCPServer}, readtimeout::Int64, access_log::Nothing)
+│     @ HTTP.Servers ~/.julia/packages/HTTP/a7H3J/src/Servers.jl:442
+│  [28] (::HTTP.Servers.var"#16#17"{Genie.Server.var"#6#12"{Int64}, HTTP.Servers.Listener{Nothing, Sockets.TCPServer}, Set{HTTP.ConnectionPool.Connection}, Int64, Nothing, Base.Semaphore, HTTP.ConnectionPool.Connection})()
+│     @ HTTP.Servers ./task.jl:484
+│ 
+└ @ Genie.Server /home/mf/.julia/packages/Genie/AjwV9/src/Server.jl:309
+┌ Error: 2022-10-22 08:52:02 MethodError: no method matching Wommasehn.AppModels.AppModel()
+│ Stacktrace:
+│   [1] #invokelatest#2
+│     @ ./essentials.jl:729 [inlined]
+│   [2] invokelatest
+│     @ ./essentials.jl:726 [inlined]
+│   [3] |>
+│     @ ./operators.jl:911 [inlined]
+│   [4] (::GenieDevTools.RouteHelpers.var"#24#26")(p::Stipple.Pages.Page)
+│     @ GenieDevTools.RouteHelpers ./none:0
+│   [5] iterate
+│     @ ./generator.jl:47 [inlined]
+│   [6] collect(itr::Base.Generator{Vector{Stipple.Pages.Page}, GenieDevTools.RouteHelpers.var"#24#26"})
+│     @ Base ./array.jl:787
+│   [7] (::GenieDevTools.RouteHelpers.var"#23#25")()
+│     @ GenieDevTools.RouteHelpers ~/.julia/packages/GenieDevTools/D2n4E/src/route_helpers.jl:139
+│   [8] run_route(r::Genie.Router.Route)
+│     @ Genie.Router ~/.julia/packages/Genie/AjwV9/src/Router.jl:535
+│   [9] route_request(req::HTTP.Messages.Request, res::HTTP.Messages.Response)
+│     @ Genie.Router ~/.julia/packages/Genie/AjwV9/src/Router.jl:173
+│  [10] handle_request(req::HTTP.Messages.Request, res::HTTP.Messages.Response)
+│     @ Genie.Server ~/.julia/packages/Genie/AjwV9/src/Server.jl:270
+│  [11] (::Genie.Server.var"#27#28"{HTTP.Messages.Request, HTTP.Messages.Response})()
+│     @ Genie.Server ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/macros.jl:123
+│  [12] #invokelatest#2
+│     @ ./essentials.jl:729 [inlined]
+│  [13] invokelatest
+│     @ ./essentials.jl:726 [inlined]
+│  [14] #153
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:425 [inlined]
+│  [15] run_work_thunk(thunk::Distributed.var"#153#154"{Genie.Server.var"#27#28"{HTTP.Messages.Request, HTTP.Messages.Response}, Tuple{}, Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}}}, print_error::Bool)
+│     @ Distributed ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/process_messages.jl:70
+│  [16] #remotecall_fetch#158
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:450 [inlined]
+│  [17] remotecall_fetch
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:449 [inlined]
+│  [18] #remotecall_fetch#162
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:492 [inlined]
+│  [19] remotecall_fetch
+│     @ ~/julia-1.8.0/share/julia/stdlib/v1.8/Distributed/src/remotecall.jl:492 [inlined]
+│  [20] setup_http_listener(req::HTTP.Messages.Request, res::HTTP.Messages.Response)
+│     @ Genie.Server ~/.julia/packages/Genie/AjwV9/src/Server.jl:297
+│  [21] setup_http_listener
+│     @ ~/.julia/packages/Genie/AjwV9/src/Server.jl:296 [inlined]
+│  [22] (::HTTP.Handlers.var"#1#2"{typeof(Genie.Server.setup_http_listener)})(stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.ConnectionPool.Connection})
+│     @ HTTP.Handlers ~/.julia/packages/HTTP/a7H3J/src/Handlers.jl:58
+│  [23] setup_http_streamer(http::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.ConnectionPool.Connection})
+│     @ Genie.Server ~/.julia/packages/Genie/AjwV9/src/Server.jl:286
+│  [24] (::Genie.Server.var"#6#12"{Int64})(http::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.ConnectionPool.Connection})
+│     @ Genie.Server ~/.julia/packages/Genie/AjwV9/src/Server.jl:118
+│  [25] #invokelatest#2
+│     @ ./essentials.jl:729 [inlined]
+│  [26] invokelatest
+│     @ ./essentials.jl:726 [inlined]
+│  [27] handle_connection(f::Function, c::HTTP.ConnectionPool.Connection, listener::HTTP.Servers.Listener{Nothing, Sockets.TCPServer}, readtimeout::Int64, access_log::Nothing)
+│     @ HTTP.Servers ~/.julia/packages/HTTP/a7H3J/src/Servers.jl:442
+│  [28] (::HTTP.Servers.var"#16#17"{Genie.Server.var"#6#12"{Int64}, HTTP.Servers.Listener{Nothing, Sockets.TCPServer}, Set{HTTP.ConnectionPool.Connection}, Int64, Nothing, Base.Semaphore, HTTP.ConnectionPool.Connection})()
+│     @ HTTP.Servers ./task.jl:484
+│ 
+└ @ Genie.Server /home/mf/.julia/packages/Genie/AjwV9/src/Server.jl:309
+┌ Error: 2022-10-22 15:47:06 Failed to revise /home/mf/.julia/geniebuilder/apps/Wommasehn/models/AppModels.jl
+│   exception = Revise.ReviseEvalException("/home/mf/.julia/packages/Parameters/MK0O4/src/Parameters.jl:611", ErrorException("invalid redefinition of constant AppModel"), Any[(top-level scope at Parameters.jl:611, 1)])
+└ @ Revise /home/mf/.julia/packages/Revise/do2nH/src/packagedef.jl:715
+┌ Info: 2022-10-22 15:47:53 Watching ["/home/mf/.julia/geniebuilder/apps/Wommasehn"]
+└ @ GenieAutoReload /home/mf/.julia/packages/GenieAutoReload/3nZPA/src/GenieAutoReload.jl:18
+┌ Info: 2022-10-22 15:48:21 
+│ Web Server starting at http://0.0.0.0:51329 - press Ctrl/Cmd+C to stop the server. 
+└ @ Genie.Server /home/mf/.julia/packages/Genie/AjwV9/src/Server.jl:158
+┌ Info: 2022-10-22 15:48:38 GET /_devtools_/id 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:49:49 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:49:51 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:49:51 GET /SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:49:52 GET /genie.jl/master/assets/js/channels.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:49:52 GET /_devtools_/edit?path=views/hello.jl.html 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:49:52 GET /stipple.jl/master/assets/js/vue.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:49:52 GET /stipple.jl/master/assets/js/underscore-min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:49:52 GET /stipple.jl/master/assets/js/stipplecore.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:49:52 GET /stipple.jl/master/assets/js/vue_filters.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:49:52 GET /stipple.jl/master/assets/js/watchers.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:49:52 GET /stipple.jl/master/assets/js/keepalive.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:49:56 GET /stipple.jl/master/assets/js/wommasehnappmodelsappmodel.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:49:56 GET /js/plugins/autoreload.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:49:56 GET /_devtools_/edit?path=public/css/grapes.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:50:01 GET /stipple.jl/master/assets/css/stipplecore.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:50:01 GET /stippleui.jl/master/assets/css/quasar.min.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Error: 2022-10-22 15:50:21 Failed to revise /home/mf/.julia/geniebuilder/apps/Wommasehn/models/AppModels.jl
+│   exception = (LoadError("/home/mf/.julia/geniebuilder/apps/Wommasehn/models/AppModels.jl", 36, "missing separator in array expression"), Union{Ptr{Nothing}, Base.InterpreterIP}[Ptr{Nothing} @0x00007f3d4f4a2838])
+└ @ Revise /home/mf/.julia/packages/Revise/do2nH/src/packagedef.jl:717
+┌ Warning: 2022-10-22 15:50:24 The running code does not match the saved version for the following files:
+│ 
+│   /home/mf/.julia/geniebuilder/apps/Wommasehn/models/AppModels.jl
+│ 
+│ If the error was due to evaluation order, it can sometimes be resolved by calling `Revise.retry()`.
+│ Use Revise.errors() to report errors again. Only the first error in each file is shown.
+│ Your prompt color may be yellow until the errors are resolved.
+└ @ Revise /home/mf/.julia/packages/Revise/do2nH/src/packagedef.jl:825
+┌ Info: 2022-10-22 15:50:24 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Error: 2022-10-22 15:50:33 Failed to revise /home/mf/.julia/geniebuilder/apps/Wommasehn/models/AppModels.jl
+│   exception = (LoadError("/home/mf/.julia/geniebuilder/apps/Wommasehn/models/AppModels.jl", 36, "missing separator in array expression"), Union{Ptr{Nothing}, Base.InterpreterIP}[Ptr{Nothing} @0x00007f3d4f4a2838])
+└ @ Revise /home/mf/.julia/packages/Revise/do2nH/src/packagedef.jl:717
+┌ Info: 2022-10-22 15:50:33 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:50:46 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:50:46 GET /SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:50:46 GET /genie.jl/master/assets/js/channels.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:50:46 GET /stipple.jl/master/assets/js/underscore-min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:50:46 GET /stipple.jl/master/assets/js/vue.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:50:46 GET /stipple.jl/master/assets/js/stipplecore.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:50:46 GET /stipple.jl/master/assets/js/vue_filters.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:50:46 GET /_devtools_/edit?path=views/hello.jl.html 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:50:46 GET /stipple.jl/master/assets/js/watchers.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:50:46 GET /stipple.jl/master/assets/js/keepalive.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:50:46 GET /js/plugins/autoreload.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:50:46 GET /stipple.jl/master/assets/js/wommasehnappmodelsappmodel.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:50:46 GET /_devtools_/edit?path=public/css/grapes.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:50:46 GET /stipple.jl/master/assets/css/stipplecore.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:50:46 GET /stippleui.jl/master/assets/css/quasar.min.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:51:32 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:51:37 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:51:38 GET /SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:51:38 GET /genie.jl/master/assets/js/channels.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:51:38 GET /stipple.jl/master/assets/js/underscore-min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:51:38 GET /stipple.jl/master/assets/js/vue.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:51:38 GET /stipple.jl/master/assets/js/stipplecore.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:51:38 GET /stipple.jl/master/assets/js/vue_filters.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:51:38 GET /stipple.jl/master/assets/js/watchers.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:51:38 GET /_devtools_/edit?path=views/hello.jl.html 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:51:38 GET /stipple.jl/master/assets/js/keepalive.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:51:38 GET /js/plugins/autoreload.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:51:38 GET /stipple.jl/master/assets/js/wommasehnappmodelsappmodel.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:51:38 GET /_devtools_/edit?path=public/css/grapes.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:51:38 GET /stipple.jl/master/assets/css/stipplecore.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:51:38 GET /stippleui.jl/master/assets/css/quasar.min.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:22 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:28 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:28 GET /SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:28 GET /genie.jl/master/assets/js/channels.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:28 GET /stipple.jl/master/assets/js/underscore-min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:28 GET /stipple.jl/master/assets/js/vue.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:28 GET /stipple.jl/master/assets/js/stipplecore.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:28 GET /stipple.jl/master/assets/js/vue_filters.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:28 GET /_devtools_/edit?path=views/hello.jl.html 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:28 GET /stipple.jl/master/assets/js/watchers.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:28 GET /stipple.jl/master/assets/js/keepalive.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:28 GET /js/plugins/autoreload.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:28 GET /stipple.jl/master/assets/js/wommasehnappmodelsappmodel.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:28 GET /_devtools_/edit?path=public/css/grapes.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:28 GET /stipple.jl/master/assets/css/stipplecore.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:28 GET /stippleui.jl/master/assets/css/quasar.min.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:44 GET / 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:44 GET /stipple.jl/master/assets/css/stipplecore.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:44 GET /stippleui.jl/master/assets/css/quasar.min.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:44 GET /genie.jl/master/assets/js/channels.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:44 GET /stipple.jl/master/assets/js/underscore-min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:44 GET /stipple.jl/master/assets/js/vue.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:44 GET /stipple.jl/master/assets/js/stipplecore.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:44 GET /stipple.jl/master/assets/js/watchers.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:45 GET /js/plugins/autoreload.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:45 GET /stippleui.jl/master/assets/js/quasar.umd.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:45 GET /stippleplotly.jl/master/assets/js/plotly2.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:45 GET /stippleplotly.jl/master/assets/js/resizesensor.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:45 GET /stippleplotly.jl/master/assets/js/lodash.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:45 GET /stippleplotly.jl/master/assets/js/vueresize.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:45 GET /stippleplotly.jl/master/assets/js/vueplotly.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:45 GET /stippleplotly.jl/master/assets/js/sentinel.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:45 GET /stippleplotly.jl/master/assets/js/syncplot.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:45 GET /stipple.jl/master/assets/js/vue_filters.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:45 GET /stipple.jl/master/assets/js/keepalive.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:52:45 GET /stipple.jl/master/assets/js/wommasehnappmodelsappmodel.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Warning: 2022-10-22 15:52:45 Route matches static file: /favicon.ico -- executing route
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:158
+┌ Info: 2022-10-22 15:52:46 GET /favicon.ico 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:05 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:11 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:11 GET /SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:11 GET /genie.jl/master/assets/js/channels.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:11 GET /stipple.jl/master/assets/js/underscore-min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:11 GET /stipple.jl/master/assets/js/vue.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:11 GET /stipple.jl/master/assets/js/stipplecore.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:11 GET /stipple.jl/master/assets/js/vue_filters.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:11 GET /_devtools_/edit?path=views/hello.jl.html 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:11 GET /stipple.jl/master/assets/js/watchers.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:11 GET /stipple.jl/master/assets/js/keepalive.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:11 GET /js/plugins/autoreload.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:12 GET /stipple.jl/master/assets/js/wommasehnappmodelsappmodel.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:12 GET /_devtools_/edit?path=public/css/grapes.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:12 GET /stipple.jl/master/assets/css/stipplecore.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:12 GET /stippleui.jl/master/assets/css/quasar.min.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:30 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:35 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:35 GET /SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:35 GET /genie.jl/master/assets/js/channels.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:35 GET /stipple.jl/master/assets/js/underscore-min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:35 GET /stipple.jl/master/assets/js/vue.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:35 GET /stipple.jl/master/assets/js/stipplecore.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:35 GET /stipple.jl/master/assets/js/vue_filters.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:35 GET /_devtools_/edit?path=views/hello.jl.html 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:35 GET /stipple.jl/master/assets/js/watchers.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:35 GET /stipple.jl/master/assets/js/keepalive.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:35 GET /js/plugins/autoreload.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:35 GET /stipple.jl/master/assets/js/wommasehnappmodelsappmodel.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:35 GET /_devtools_/edit?path=public/css/grapes.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:35 GET /stipple.jl/master/assets/css/stipplecore.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:35 GET /stippleui.jl/master/assets/css/quasar.min.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:47 GET / 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:47 GET /stipple.jl/master/assets/css/stipplecore.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:47 GET /stipple.jl/master/assets/js/vue.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:47 GET /stipple.jl/master/assets/js/underscore-min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:47 GET /stipple.jl/master/assets/js/stipplecore.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:47 GET /stipple.jl/master/assets/js/watchers.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:47 GET /genie.jl/master/assets/js/channels.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:47 GET /stippleui.jl/master/assets/css/quasar.min.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:47 GET /js/plugins/autoreload.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:47 GET /stippleui.jl/master/assets/js/quasar.umd.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:47 GET /stippleplotly.jl/master/assets/js/plotly2.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:47 GET /stippleplotly.jl/master/assets/js/resizesensor.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:47 GET /stippleplotly.jl/master/assets/js/lodash.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:47 GET /stippleplotly.jl/master/assets/js/vueresize.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:47 GET /stippleplotly.jl/master/assets/js/vueplotly.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:47 GET /stippleplotly.jl/master/assets/js/sentinel.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:47 GET /stippleplotly.jl/master/assets/js/syncplot.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:47 GET /stipple.jl/master/assets/js/vue_filters.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:47 GET /stipple.jl/master/assets/js/keepalive.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 15:53:48 GET /stipple.jl/master/assets/js/wommasehnappmodelsappmodel.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Warning: 2022-10-22 15:53:48 Route matches static file: /favicon.ico -- executing route
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:158
+┌ Info: 2022-10-22 15:53:48 GET /favicon.ico 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:04:21 Watching ["/home/mf/.julia/geniebuilder/apps/Wommasehn"]
+└ @ GenieAutoReload /home/mf/.julia/packages/GenieAutoReload/3nZPA/src/GenieAutoReload.jl:18
+┌ Info: 2022-10-22 16:04:33 
+│ Web Server starting at http://0.0.0.0:51329 - press Ctrl/Cmd+C to stop the server. 
+└ @ Genie.Server /home/mf/.julia/packages/Genie/AjwV9/src/Server.jl:158
+┌ Info: 2022-10-22 16:04:41 GET /_devtools_/id 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:11 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:12 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:12 GET /SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:12 GET /genie.jl/master/assets/js/channels.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:12 GET /stipple.jl/master/assets/js/underscore-min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:12 GET /stipple.jl/master/assets/js/vue.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:12 GET /stipple.jl/master/assets/js/vue_filters.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:12 GET /stipple.jl/master/assets/js/stipplecore.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:12 GET /_devtools_/edit?path=views/hello.jl.html 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:12 GET /stipple.jl/master/assets/js/watchers.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:12 GET /stipple.jl/master/assets/js/keepalive.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:12 GET /js/plugins/autoreload.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:14 GET /stipple.jl/master/assets/js/wommasehnappmodelsappmodel.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:16 GET /_devtools_/edit?path=public/css/grapes.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:17 GET /stipple.jl/master/assets/css/stipplecore.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:17 GET /stippleui.jl/master/assets/css/quasar.min.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:31 GET / 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:31 GET /stipple.jl/master/assets/js/vue.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:31 GET /stipple.jl/master/assets/css/stipplecore.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:31 GET /stippleui.jl/master/assets/css/quasar.min.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:31 GET /genie.jl/master/assets/js/channels.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:31 GET /stipple.jl/master/assets/js/underscore-min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:31 GET /stipple.jl/master/assets/js/stipplecore.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:31 GET /stipple.jl/master/assets/js/watchers.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:31 GET /js/plugins/autoreload.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:31 GET /stippleui.jl/master/assets/js/quasar.umd.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:31 GET /stippleplotly.jl/master/assets/js/plotly2.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:31 GET /stippleplotly.jl/master/assets/js/resizesensor.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:31 GET /stippleplotly.jl/master/assets/js/lodash.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:31 GET /stippleplotly.jl/master/assets/js/vueresize.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:31 GET /stippleplotly.jl/master/assets/js/vueplotly.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:32 GET /stippleplotly.jl/master/assets/js/syncplot.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:32 GET /stippleplotly.jl/master/assets/js/sentinel.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:32 GET /stipple.jl/master/assets/js/vue_filters.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:32 GET /stipple.jl/master/assets/js/keepalive.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:05:32 GET /stipple.jl/master/assets/js/wommasehnappmodelsappmodel.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Error: 2022-10-22 16:07:01 Failed to revise /home/mf/.julia/geniebuilder/apps/Wommasehn/models/AppModels.jl
+│   exception = (LoadError("/home/mf/.julia/geniebuilder/apps/Wommasehn/models/AppModels.jl", 65, "incomplete: \"module\" at /home/mf/.julia/geniebuilder/apps/Wommasehn/models/AppModels.jl:1 requires end"), Union{Ptr{Nothing}, Base.InterpreterIP}[Ptr{Nothing} @0x00007f6be1b81fb8])
+└ @ Revise /home/mf/.julia/packages/Revise/do2nH/src/packagedef.jl:717
+┌ Warning: 2022-10-22 16:07:02 The running code does not match the saved version for the following files:
+│ 
+│   /home/mf/.julia/geniebuilder/apps/Wommasehn/models/AppModels.jl
+│ 
+│ If the error was due to evaluation order, it can sometimes be resolved by calling `Revise.retry()`.
+│ Use Revise.errors() to report errors again. Only the first error in each file is shown.
+│ Your prompt color may be yellow until the errors are resolved.
+└ @ Revise /home/mf/.julia/packages/Revise/do2nH/src/packagedef.jl:825
+┌ Info: 2022-10-22 16:07:03 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:07:03 GET /SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:07:03 GET /genie.jl/master/assets/js/channels.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:07:03 GET /stipple.jl/master/assets/js/underscore-min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:07:03 GET /stipple.jl/master/assets/js/vue.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:07:03 GET /stipple.jl/master/assets/js/stipplecore.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:07:03 GET /stipple.jl/master/assets/js/vue_filters.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:07:03 GET /_devtools_/edit?path=views/hello.jl.html 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:07:03 GET /stipple.jl/master/assets/js/watchers.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:07:03 GET /stipple.jl/master/assets/js/keepalive.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:07:03 GET /js/plugins/autoreload.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:07:03 GET /stipple.jl/master/assets/js/wommasehnappmodelsappmodel.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:07:03 GET /_devtools_/edit?path=public/css/grapes.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:07:03 GET /stipple.jl/master/assets/css/stipplecore.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:07:03 GET /stippleui.jl/master/assets/css/quasar.min.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:08:22 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:08:22 GET /SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:08:22 GET /genie.jl/master/assets/js/channels.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:08:22 GET /stipple.jl/master/assets/js/underscore-min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:08:22 GET /stipple.jl/master/assets/js/vue.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:08:22 GET /stipple.jl/master/assets/js/stipplecore.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:08:22 GET /stipple.jl/master/assets/js/vue_filters.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:08:22 GET /_devtools_/edit?path=views/hello.jl.html 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:08:22 GET /stipple.jl/master/assets/js/watchers.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:08:22 GET /stipple.jl/master/assets/js/keepalive.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:08:22 GET /js/plugins/autoreload.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:08:22 GET /stipple.jl/master/assets/js/wommasehnappmodelsappmodel.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:08:22 GET /_devtools_/edit?path=public/css/grapes.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:08:23 GET /stipple.jl/master/assets/css/stipplecore.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:08:23 GET /stippleui.jl/master/assets/css/quasar.min.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:08:32 GET / 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Warning: 2022-10-22 16:08:39 Route matches static file: /favicon.ico -- executing route
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:158
+┌ Info: 2022-10-22 16:08:39 GET /favicon.ico 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:19 POST /_devtools_/save?path=views/hello.jl.html 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:19 POST /_devtools_/save?path=/home/mf/.julia/geniebuilder/apps/Wommasehn/public/css/autogenerated.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:27 GET / 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:27 GET /stipple.jl/master/assets/css/stipplecore.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:27 GET /stippleui.jl/master/assets/css/quasar.min.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:27 GET /genie.jl/master/assets/js/channels.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:27 GET /stipple.jl/master/assets/js/vue.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:27 GET /stipple.jl/master/assets/js/stipplecore.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:27 GET /stipple.jl/master/assets/js/underscore-min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:27 GET /stipple.jl/master/assets/js/watchers.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:27 GET /js/plugins/autoreload.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:27 GET /stippleui.jl/master/assets/js/quasar.umd.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:27 GET /stippleplotly.jl/master/assets/js/plotly2.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:27 GET /stippleplotly.jl/master/assets/js/resizesensor.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:27 GET /stippleplotly.jl/master/assets/js/lodash.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:27 GET /stippleplotly.jl/master/assets/js/vueresize.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:27 GET /stippleplotly.jl/master/assets/js/vueplotly.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:27 GET /stippleplotly.jl/master/assets/js/sentinel.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:27 GET /stippleplotly.jl/master/assets/js/syncplot.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:27 GET /stipple.jl/master/assets/js/vue_filters.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:27 GET /stipple.jl/master/assets/js/keepalive.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:27 GET /stipple.jl/master/assets/js/wommasehnappmodelsappmodel.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Warning: 2022-10-22 16:09:28 Route matches static file: /favicon.ico -- executing route
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:158
+┌ Info: 2022-10-22 16:09:28 GET /favicon.ico 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:54 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:54 GET /SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:54 GET /genie.jl/master/assets/js/channels.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:54 GET /stipple.jl/master/assets/js/underscore-min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:54 GET /stipple.jl/master/assets/js/vue.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:54 GET /stipple.jl/master/assets/js/stipplecore.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:54 GET /stipple.jl/master/assets/js/vue_filters.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:54 GET /_devtools_/edit?path=views/hello.jl.html 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:54 GET /stipple.jl/master/assets/js/watchers.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:54 GET /stipple.jl/master/assets/js/keepalive.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:54 GET /js/plugins/autoreload.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:54 GET /stipple.jl/master/assets/js/wommasehnappmodelsappmodel.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:54 GET /_devtools_/edit?path=public/css/grapes.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:54 GET /stipple.jl/master/assets/css/stipplecore.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:09:54 GET /stippleui.jl/master/assets/css/quasar.min.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:10:45 Watching ["/home/mf/.julia/geniebuilder/apps/Wommasehn"]
+└ @ GenieAutoReload /home/mf/.julia/packages/GenieAutoReload/3nZPA/src/GenieAutoReload.jl:18
+┌ Info: 2022-10-22 16:10:55 
+│ Web Server starting at http://0.0.0.0:51329 - press Ctrl/Cmd+C to stop the server. 
+└ @ Genie.Server /home/mf/.julia/packages/Genie/AjwV9/src/Server.jl:158
+┌ Error: 2022-10-22 16:11:06 GET / 404
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:204
+┌ Info: 2022-10-22 16:11:06 GET /_devtools_/id 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:11:12 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:12:09 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Error: 2022-10-22 16:12:16 GET / 404
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:204
+┌ Info: 2022-10-22 16:12:52 Autoreloading
+└ @ GenieAutoReload /home/mf/.julia/packages/GenieAutoReload/3nZPA/src/GenieAutoReload.jl:21
+┌ Info: 2022-10-22 16:13:02 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:13:47 Watching ["/home/mf/.julia/geniebuilder/apps/Wommasehn"]
+└ @ GenieAutoReload /home/mf/.julia/packages/GenieAutoReload/3nZPA/src/GenieAutoReload.jl:18
+┌ Info: 2022-10-22 16:13:59 
+│ Web Server starting at http://0.0.0.0:51329 - press Ctrl/Cmd+C to stop the server. 
+└ @ Genie.Server /home/mf/.julia/packages/Genie/AjwV9/src/Server.jl:158
+┌ Info: 2022-10-22 16:14:06 GET /_devtools_/id 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:14:35 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:14:35 GET /SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:14:35 GET /genie.jl/master/assets/js/channels.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:14:35 GET /stipple.jl/master/assets/js/underscore-min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:14:35 GET /_devtools_/edit?path=views/hello.jl.html 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:14:35 GET /stipple.jl/master/assets/js/vue.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:14:35 GET /stipple.jl/master/assets/js/stipplecore.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:14:35 GET /stipple.jl/master/assets/js/vue_filters.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:14:35 GET /stipple.jl/master/assets/js/watchers.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:14:35 GET /stipple.jl/master/assets/js/keepalive.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:14:35 GET /js/plugins/autoreload.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:14:37 GET /stipple.jl/master/assets/js/wommasehnappmodelsappmodel.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:14:37 GET /_devtools_/edit?path=public/css/grapes.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:14:40 GET /stipple.jl/master/assets/css/stipplecore.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-22 16:14:40 GET /stippleui.jl/master/assets/css/quasar.min.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Error: 2022-10-22 16:15:12 Failed to revise /home/mf/.julia/geniebuilder/apps/Wommasehn/models/AppModels.jl
+│   exception = (LoadError("/home/mf/.julia/geniebuilder/apps/Wommasehn/models/AppModels.jl", 46, "unexpected \"=\""), Union{Ptr{Nothing}, Base.InterpreterIP}[Ptr{Nothing} @0x00007fadf0bb3088])
+└ @ Revise /home/mf/.julia/packages/Revise/do2nH/src/packagedef.jl:717
+┌ Warning: 2022-10-22 16:15:13 The running code does not match the saved version for the following files:
+│ 
+│   /home/mf/.julia/geniebuilder/apps/Wommasehn/models/AppModels.jl
+│ 
+│ If the error was due to evaluation order, it can sometimes be resolved by calling `Revise.retry()`.
+│ Use Revise.errors() to report errors again. Only the first error in each file is shown.
+│ Your prompt color may be yellow until the errors are resolved.
+└ @ Revise /home/mf/.julia/packages/Revise/do2nH/src/packagedef.jl:825
+┌ Error: 2022-10-22 16:15:42 Failed to revise /home/mf/.julia/geniebuilder/apps/Wommasehn/models/AppModels.jl
+│   exception = (LoadError("/home/mf/.julia/geniebuilder/apps/Wommasehn/models/AppModels.jl", 46, "unexpected \"=\""), Union{Ptr{Nothing}, Base.InterpreterIP}[Ptr{Nothing} @0x00007fadf0bb3088])
+└ @ Revise /home/mf/.julia/packages/Revise/do2nH/src/packagedef.jl:717

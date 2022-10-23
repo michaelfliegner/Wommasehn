@@ -1,0 +1,227 @@
+┌ Info: 2022-10-23 09:15:51 Watching ["/home/mf/.julia/geniebuilder/apps/Wommasehn"]
+└ @ GenieAutoReload /home/mf/.julia/packages/GenieAutoReload/3nZPA/src/GenieAutoReload.jl:18
+┌ Info: 2022-10-23 09:16:04 
+│ Web Server starting at http://0.0.0.0:51329 - press Ctrl/Cmd+C to stop the server. 
+└ @ Genie.Server /home/mf/.julia/packages/Genie/AjwV9/src/Server.jl:158
+┌ Info: 2022-10-23 09:16:14 GET /_devtools_/id 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:16:46 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:16:46 GET /SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:16:46 GET /genie.jl/master/assets/js/channels.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:16:46 GET /stipple.jl/master/assets/js/underscore-min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:16:46 GET /stipple.jl/master/assets/js/vue.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:16:46 GET /stipple.jl/master/assets/js/stipplecore.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:16:47 GET /_devtools_/edit?path=views/hello.jl.html 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:16:47 GET /stipple.jl/master/assets/js/vue_filters.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:16:47 GET /stipple.jl/master/assets/js/watchers.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:16:47 GET /stipple.jl/master/assets/js/keepalive.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:16:48 GET /stipple.jl/master/assets/js/wommasehnappmodelsappmodel.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:16:48 GET /js/plugins/autoreload.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:16:48 GET /_devtools_/edit?path=public/css/grapes.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:16:51 GET /stipple.jl/master/assets/css/stipplecore.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:16:51 GET /stippleui.jl/master/assets/css/quasar.min.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:17:35 GET / 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:17:35 GET /stipple.jl/master/assets/css/stipplecore.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:17:35 GET /stipple.jl/master/assets/js/vue.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:17:35 GET /stipple.jl/master/assets/js/stipplecore.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:17:35 GET /stippleui.jl/master/assets/css/quasar.min.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:17:35 GET /genie.jl/master/assets/js/channels.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:17:35 GET /stipple.jl/master/assets/js/underscore-min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:17:35 GET /stipple.jl/master/assets/js/watchers.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:17:35 GET /js/plugins/autoreload.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:17:35 GET /stippleui.jl/master/assets/js/quasar.umd.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:17:35 GET /stippleplotly.jl/master/assets/js/plotly2.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:17:35 GET /stippleplotly.jl/master/assets/js/resizesensor.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:17:35 GET /stippleplotly.jl/master/assets/js/lodash.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:17:35 GET /stippleplotly.jl/master/assets/js/vueresize.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:17:35 GET /stippleplotly.jl/master/assets/js/vueplotly.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:17:35 GET /stippleplotly.jl/master/assets/js/sentinel.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:17:35 GET /stippleplotly.jl/master/assets/js/syncplot.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:17:35 GET /stipple.jl/master/assets/js/vue_filters.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:17:35 GET /stipple.jl/master/assets/js/keepalive.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:17:36 GET /stipple.jl/master/assets/js/wommasehnappmodelsappmodel.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:49 Autoreloading
+└ @ GenieAutoReload /home/mf/.julia/packages/GenieAutoReload/3nZPA/src/GenieAutoReload.jl:21
+┌ Info: 2022-10-23 09:19:53 GET / 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:53 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:53 GET /SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:53 GET /genie.jl/master/assets/js/channels.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:53 GET /stipple.jl/master/assets/js/underscore-min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:53 GET /stipple.jl/master/assets/js/vue.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:53 GET /stipple.jl/master/assets/js/stipplecore.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:53 GET /stipple.jl/master/assets/js/vue_filters.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:53 GET /_devtools_/edit?path=views/hello.jl.html 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:53 GET /stipple.jl/master/assets/js/watchers.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:53 GET /stipple.jl/master/assets/js/keepalive.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:53 GET /js/plugins/autoreload.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:54 GET /stipple.jl/master/assets/js/wommasehnappmodelsappmodel.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:54 GET /_devtools_/edit?path=public/css/grapes.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:54 GET /stipple.jl/master/assets/css/stipplecore.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:54 GET /stippleui.jl/master/assets/css/quasar.min.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:54 GET /genie.jl/master/assets/js/channels.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:54 GET /stipple.jl/master/assets/js/underscore-min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:54 GET /stipple.jl/master/assets/js/vue.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:54 GET /stipple.jl/master/assets/js/stipplecore.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:54 GET /stipple.jl/master/assets/js/watchers.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:54 GET /js/plugins/autoreload.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:54 GET /stippleui.jl/master/assets/js/quasar.umd.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:54 GET /stippleplotly.jl/master/assets/js/plotly2.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:54 GET /stippleplotly.jl/master/assets/js/resizesensor.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:54 GET /stippleplotly.jl/master/assets/js/lodash.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:54 GET /stippleplotly.jl/master/assets/js/vueresize.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:54 GET /stippleplotly.jl/master/assets/js/vueplotly.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:54 GET /stippleplotly.jl/master/assets/js/sentinel.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:54 GET /stippleplotly.jl/master/assets/js/syncplot.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:54 GET /stipple.jl/master/assets/js/vue_filters.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:54 GET /stipple.jl/master/assets/js/keepalive.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:54 GET /stipple.jl/master/assets/js/wommasehnappmodelsappmodel.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:55 GET /stipple.jl/master/assets/css/stipplecore.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:55 GET /stippleui.jl/master/assets/css/quasar.min.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Warning: 2022-10-23 09:19:55 Route matches static file: /favicon.ico -- executing route
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:158
+┌ Info: 2022-10-23 09:19:55 GET /favicon.ico 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:58 GET /_devtools_/pages?CHANNEL__=SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:58 GET /SYPCSLWFMMCGOKHANCYZJJJRTKOMCGAQ.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:58 GET /genie.jl/master/assets/js/channels.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:58 GET /stipple.jl/master/assets/js/underscore-min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:58 GET /stipple.jl/master/assets/js/vue.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:58 GET /stipple.jl/master/assets/js/stipplecore.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:58 GET /stipple.jl/master/assets/js/vue_filters.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:58 GET /_devtools_/edit?path=views/hello.jl.html 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:58 GET /stipple.jl/master/assets/js/watchers.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:58 GET /stipple.jl/master/assets/js/keepalive.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:58 GET /js/plugins/autoreload.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:58 GET /stipple.jl/master/assets/js/wommasehnappmodelsappmodel.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:58 GET /_devtools_/edit?path=public/css/grapes.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:58 GET /stipple.jl/master/assets/css/stipplecore.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:19:58 GET /stippleui.jl/master/assets/css/quasar.min.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:20:11 GET / 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:20:11 GET /stipple.jl/master/assets/css/stipplecore.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:20:11 GET /stippleui.jl/master/assets/css/quasar.min.css 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:20:11 GET /genie.jl/master/assets/js/channels.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:20:11 GET /stipple.jl/master/assets/js/underscore-min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:20:11 GET /stipple.jl/master/assets/js/vue.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:20:11 GET /stipple.jl/master/assets/js/stipplecore.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:20:11 GET /stipple.jl/master/assets/js/watchers.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:20:11 GET /js/plugins/autoreload.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:20:11 GET /stippleui.jl/master/assets/js/quasar.umd.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:20:11 GET /stippleplotly.jl/master/assets/js/plotly2.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:20:11 GET /stippleplotly.jl/master/assets/js/resizesensor.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:20:11 GET /stippleplotly.jl/master/assets/js/lodash.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:20:12 GET /stippleplotly.jl/master/assets/js/vueresize.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:20:12 GET /stippleplotly.jl/master/assets/js/vueplotly.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:20:12 GET /stippleplotly.jl/master/assets/js/sentinel.min.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:20:12 GET /stippleplotly.jl/master/assets/js/syncplot.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:20:12 GET /stipple.jl/master/assets/js/keepalive.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:20:12 GET /stipple.jl/master/assets/js/vue_filters.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Info: 2022-10-23 09:20:12 GET /stipple.jl/master/assets/js/wommasehnappmodelsappmodel.js 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
+┌ Warning: 2022-10-23 09:20:12 Route matches static file: /favicon.ico -- executing route
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:158
+┌ Info: 2022-10-23 09:20:12 GET /favicon.ico 200
+└ @ Genie.Router /home/mf/.julia/packages/Genie/AjwV9/src/Router.jl:202
